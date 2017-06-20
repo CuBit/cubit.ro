@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Creative Theme</title>
+    <title>CuBit România - consultanță și servicii IT</title>
     <link>https://www.cubit.ro/</link>
     <description>Recent content on Hugo Creative Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>cubit.ro</generator>
     <language>ro-ro</language>
     
 	<atom:link href="https://www.cubit.ro/index.xml" rel="self" type="application/rss+xml" />
