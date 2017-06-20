@@ -1,0 +1,108 @@
+baseurl = "https://www.cubit.ro/"
+languageCode = "ro-ro"
+title = "Hugo Creative Theme"
+newContentEditor = "scite"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "CuBit România"
+	description = "Consultanță și servicii IT"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "CuBit România"
+
+		[params.navigation.links]
+			about     = "Despre"
+			services  = "Servicii"
+			portfolio = "Portofoliu"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Când cuvântul nu ajunge folosește CuBit"
+		subtitle   = "Chiar dacă nu aveți experiență sau sunteți un bun cunoscător în domeniul IT contactați-ne!. Este important să afli și o altă părere iar ceea ce oferim și experiența acumulată aduc un plus de valoare ideilor dumneavoastră."
+		buttonText = "Află mai mult"
+
+
+	# About section
+	[params.about]
+		headline    = "Avem ceea ce vă este necesar! Contactați-ne!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Să continuăm!"
+
+
+	# Service section
+	[params.services]
+		headline = "La dispoziția dumneavoastră cu cele mai bune servicii"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Calitate garantată"
+            description = "Vă oferim servicii de calitate garantate de experiența de peste 10 ani."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Execuție în timp util"
+			description = "Serviciile oferite sunt realizate într-un timp minim necesar cerut."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Actualizare și întreținere"
+            description = "Actualizăm și întreținem gratuit în termenul de garanție pentru a garanta execuția cerută de clienți."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Pasiune și dăruire"
+            description = "Clienții noștri sunt cei ce ne recomandă și de aceea le oferim întotdeauna ce este mai bun"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Data"
+        category = "Categoria"
+        buttonText = "închide"
+
+    # Aside section
+	[params.aside]
+		headline = "Descărcați broșura noastră de consultanță și servicii IT"
+
+		[params.aside.button]
+			text = "Descarcă"
+			link = "//www.cubit.ro/CuBit-brosura-2017.pdf"
+
+	# Contact section
+	[params.contact]
+		headline = "Să luăm legătura!"
+		description = "Sunteți gata să începeți următorul proiect cu noi? Ar fi fantastic!<br>Folosiți datele de contact care vă sunt utile și discutăm cât se poate de repede!"
+		phone = "+40.371.780.268"
+		email = "contact@cubit.ro"
+
+	# Google Maps section
+	#[params.location]
+	# 	latitude  = "34.007850"
+	 #	longitude = "-118.499305"
+	 #	maps_api_key = ""
