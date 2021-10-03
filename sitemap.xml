@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.cubit.ro/categories/</loc>
+    <loc>https://www.epom.ro/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.cubit.ro/</loc>
+    <loc>https://www.epom.ro/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.cubit.ro/tags/</loc>
+    <loc>https://www.epom.ro/tags/</loc>
     <priority>0</priority>
   </url>
   
